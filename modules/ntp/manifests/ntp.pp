@@ -5,6 +5,6 @@ class ntp {
 
 	service { "ntpd":
 		ensure => running,
-		enable => false,
+		enable => true,       # leave it enabled, dammit
 	}
 }
