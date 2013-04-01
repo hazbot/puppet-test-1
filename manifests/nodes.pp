@@ -3,8 +3,7 @@ node fedora {
 }
 
 node rhclust1 {
-	include ntp,
-	include haz
+	include [ ntp,  haz ]
 }
 
 node rhclust2 {
